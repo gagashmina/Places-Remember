@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-image: url(../img/whitebg.png);
+    font-family: 'Bitter', serif;
+}
+
+
+.header{
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: relative;
+}
+
+.auth{
+    display: flex;
+    padding-left: 1300px;
+    padding-top: 25px;
+}
+.vk{
+    padding-right: 15px;
+}
+
+.intro{
+    height: 100%;
+    width: 100vh;
+    display: flex;
+}
+
+.description{
+    margin: 0;
+    font-family: 'Bitter', serif;
+    width: 500px;
+    height: 600px;
+    padding: 70px 200px;
+    font-size: 3em;
+    text-align: left;
+}   
+
+.photo{
+    margin: 0;
+    width: 450px;
+    height: 450px;
+    padding-left: 120px;
+    padding-top: 70px;
+    border-radius: 20px;
+}
+
+#signin{
+    width: 90px;
+    height: 53px;
+    padding-right: 15px;
+    padding-top: 0px;
+}

@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'shareimp/css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Roboto&display=swap" rel="stylesheet"> 
+    <title>{{ title }}</title>
+</head>
+<body>
+    <header class="header">
+        
+        <div class="auth">
+            <img id = "signin" src="{% static 'shareimp\img\signin.png' %}" alt="signin">
+            <a href="#" class="vk"><img src="{% static 'shareimp\img\vklogo.png' %}" alt="" width="45px" height="45px"></a>
+            <a href="#" class="goog"><img src="{% static 'shareimp/img/googlelogo.png' %}" alt="" width="45px" height="45px"></a>
+        </div>
+    </div>  
+    </header>
+
+    <div class="intro">
+        {% block content %}
+        {% endblock content %}
+    </div>
+
+    
+</body>
+</html>
