@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('shareimp.urls'))
+    path('', include('shareimp.urls')),
+    path('user/', include('shareimp.urls'))
 ]
